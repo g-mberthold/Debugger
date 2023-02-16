@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_716145_debugging.glide.ui.polaris.on_off_user_pref_enabled</name>
+        <read_roles/>
+        <suffix>glide.ui.polaris.on_off_user_pref_enabled</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-01 08:39:14</sys_created_on>
+        <sys_id>7e409df81bf8e510eeeded74604bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_716145_debugging.glide.ui.polaris.on_off_user_pref_enabled</sys_name>
+        <sys_package display_value="Debugging Logger" source="x_716145_debugging">de0ecf401b386510eeeded74604bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Debugging Logger">de0ecf401b386510eeeded74604bcbad</sys_scope>
+        <sys_update_name>sys_properties_7e409df81bf8e510eeeded74604bcb1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-01 08:39:14</sys_updated_on>
+        <type>string</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=7e409df81bf8e510eeeded74604bcb1d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Debugging Logger">de0ecf401b386510eeeded74604bcbad</application>
+        <file_path/>
+        <instance_id>4e827d8adb4c7c105749cac505961968</instance_id>
+        <instance_name>dev115626</instance_name>
+        <name>sys_properties_7e409df81bf8e510eeeded74604bcb1d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_716145_debugging.glide.ui.polaris.on_off_user_pref_enabled</name><read_roles/><suffix>glide.ui.polaris.on_off_user_pref_enabled</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-01 08:39:14</sys_created_on><sys_id>7e409df81bf8e510eeeded74604bcb1d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_716145_debugging.glide.ui.polaris.on_off_user_pref_enabled</sys_name><sys_package display_value="Debugging Logger" source="x_716145_debugging">de0ecf401b386510eeeded74604bcbad</sys_package><sys_policy/><sys_scope display_value="Debugging Logger">de0ecf401b386510eeeded74604bcbad</sys_scope><sys_update_name>sys_properties_7e409df81bf8e510eeeded74604bcb1d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-01 08:39:14</sys_updated_on><type>string</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=7e409df81bf8e510eeeded74604bcb1d"/></record_update>]]></payload>
+        <payload_hash>-704280168</payload_hash>
+        <record_name>x_716145_debugging.glide.ui.polaris.on_off_user_pref_enabled</record_name>
+        <reverted_from/>
+        <source>120ec7841b386510eeeded74604bcbd6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-01 08:39:15</sys_created_on>
+        <sys_id>6660d5341b7ce510eeeded74604bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1860c21502b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-01 08:39:15</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>ae60d534547ce510cf915a5bf846145c</update_guid>
+        <update_guid_history>ae60d534547ce510cf915a5bf846145c:-704280168</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-01 08:40:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>014f5a66e5e341e78002cd9cf72d7149</sys_id>
+        <sys_metadata>7e409df81bf8e510eeeded74604bcb1d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_716145_debugging.glide.ui.polaris.on_off_user_pref_enabled</sys_name>
+        <sys_package display_value="Debugging Logger" source="x_716145_debugging">de0ecf401b386510eeeded74604bcbad</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Debugging Logger">de0ecf401b386510eeeded74604bcbad</sys_scope>
+        <sys_scope_delete display_value="">40aa1103d46c4e808556e1ad53276640</sys_scope_delete>
+        <sys_update_name>sys_properties_7e409df81bf8e510eeeded74604bcb1d</sys_update_name>
+        <sys_update_version display_value="sys_properties_7e409df81bf8e510eeeded74604bcb1d">6660d5341b7ce510eeeded74604bcb5d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-01 08:40:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

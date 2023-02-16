@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>Test of the various logging techniques&#13;
+&#13;
+Demonstrates: Millisecond Logging, Cumulative Message Logging</description>
+        <name>Logging Tester</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var LoggingScoped = Class.create();
+
+LoggingScoped.prototype = {
+    
+    initialize: function() {
+    
+    },
+    
+    
+    
+    loggingTest: function(problemID, problemNumber) {
+    
+        try {
+        
+            var location = 'SI:Logging Scoped';
+            
+            var message = gs.getMessage('---> [{2}-{3}]\nID: {0}\nNumber: {1}\n', 
+            
+                [problemID, problemNumber,
+                
+                new GlideDateTime().getNumericValue(), location]);
+                
+            var incidents = new GlideRecord('incident');
+            
+            incidents.addQuery('problem_id', problemID);
+            
+            incidents.query();
+            
+            while (incidents.next()) {
+            
+                message += 'Incident Number: ' + incidents.getValue('number') + '\n';
+			}	
+            gs.debug(message);
+            
+        }
+    
+		catch (err) {
+    
+            gs.error('---> {0}\n{1}', [err, message]); 
+    
+        }
+    
+    },
+    
+    type: 'LoggingScoped'
+
+};]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-30 15:48:52</sys_created_on>
+        <sys_id>5b3f54901b7c6510eeeded74604bcbe1</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Logging Tester</sys_name>
+        <sys_package display_value="Debugging Logger" source="x_716145_debugging">de0ecf401b386510eeeded74604bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Debugging Logger">de0ecf401b386510eeeded74604bcbad</sys_scope>
+        <sys_update_name>sys_script_fix_5b3f54901b7c6510eeeded74604bcbe1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-01 17:19:06</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

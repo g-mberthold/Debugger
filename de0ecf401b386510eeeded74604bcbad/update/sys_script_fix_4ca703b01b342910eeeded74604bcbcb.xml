@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Test for Demo</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var gr = new GlideRecord('incident');
+gr.addActiveQuery();
+gr.setLimit(5);
+gr.query();
+
+while (gr.next()) {
+    gs.info("The incident number is " + gr.number);
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-01 17:21:44</sys_created_on>
+        <sys_id>4ca703b01b342910eeeded74604bcbcb</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Test for Demo</sys_name>
+        <sys_package display_value="Debugging Logger" source="x_716145_debugging">de0ecf401b386510eeeded74604bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Debugging Logger">de0ecf401b386510eeeded74604bcbad</sys_scope>
+        <sys_update_name>sys_script_fix_4ca703b01b342910eeeded74604bcbcb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-03 12:59:38</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

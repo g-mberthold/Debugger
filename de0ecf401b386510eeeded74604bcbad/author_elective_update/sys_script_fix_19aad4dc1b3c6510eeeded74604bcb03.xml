@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <before>false</before>
+        <description/>
+        <name>Protokollierungstester</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script/>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-30 15:28:02</sys_created_on>
+        <sys_id>19aad4dc1b3c6510eeeded74604bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Protokollierungstester</sys_name>
+        <sys_package display_value="Debugging Logger" source="x_716145_debugging">de0ecf401b386510eeeded74604bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Debugging Logger">de0ecf401b386510eeeded74604bcbad</sys_scope>
+        <sys_update_name>sys_script_fix_19aad4dc1b3c6510eeeded74604bcb03</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-30 15:28:02</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Debugging Logger">de0ecf401b386510eeeded74604bcbad</application>
+        <file_path/>
+        <instance_id>4e827d8adb4c7c105749cac505961968</instance_id>
+        <instance_name>dev115626</instance_name>
+        <name>sys_script_fix_19aad4dc1b3c6510eeeded74604bcb03</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix"><sys_script_fix action="INSERT_OR_UPDATE"><before>false</before><description/><name>Protokollierungstester</name><record_for_rollback>true</record_for_rollback><script/><sys_class_name>sys_script_fix</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-30 15:28:02</sys_created_on><sys_id>19aad4dc1b3c6510eeeded74604bcb03</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Protokollierungstester</sys_name><sys_package display_value="Debugging Logger" source="x_716145_debugging">de0ecf401b386510eeeded74604bcbad</sys_package><sys_policy/><sys_scope display_value="Debugging Logger">de0ecf401b386510eeeded74604bcbad</sys_scope><sys_update_name>sys_script_fix_19aad4dc1b3c6510eeeded74604bcb03</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-30 15:28:02</sys_updated_on><unloadable>false</unloadable></sys_script_fix></record_update>]]></payload>
+        <payload_hash>-2059188575</payload_hash>
+        <record_name>Protokollierungstester</record_name>
+        <reverted_from/>
+        <source>120ec7841b386510eeeded74604bcbd6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-30 15:28:02</sys_created_on>
+        <sys_id>4fca1c9c1b3c6510eeeded74604bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186034adaea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-30 15:28:02</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>87ca1c9ce83c65106df99dc44bcdc569</update_guid>
+        <update_guid_history>87ca1c9ce83c65106df99dc44bcdc569:-2059188575</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-30 15:44:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>17320685808446988c346ce79b3cbc40</sys_id>
+        <sys_metadata>19aad4dc1b3c6510eeeded74604bcb03</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Protokollierungstester</sys_name>
+        <sys_package display_value="Debugging Logger" source="x_716145_debugging">de0ecf401b386510eeeded74604bcbad</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Debugging Logger">de0ecf401b386510eeeded74604bcbad</sys_scope>
+        <sys_scope_delete display_value="">40aa1103d46c4e808556e1ad53276640</sys_scope_delete>
+        <sys_update_name>sys_script_fix_19aad4dc1b3c6510eeeded74604bcb03</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_19aad4dc1b3c6510eeeded74604bcb03">4fca1c9c1b3c6510eeeded74604bcb69</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-30 15:44:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

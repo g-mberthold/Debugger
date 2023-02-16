@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Default: db&#13;
+Values: db, debug</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_716145_debugging.logging.verbosity</name>
+        <read_roles/>
+        <suffix>logging.verbosity</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-31 09:44:42</sys_created_on>
+        <sys_id>ad75d0641bf8a510eeeded74604bcb7f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_716145_debugging.logging.verbosity</sys_name>
+        <sys_package display_value="Debugging Logger" source="x_716145_debugging">de0ecf401b386510eeeded74604bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Debugging Logger">de0ecf401b386510eeeded74604bcbad</sys_scope>
+        <sys_update_name>sys_properties_ad75d0641bf8a510eeeded74604bcb7f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 08:33:00</sys_updated_on>
+        <type>string</type>
+        <value>debug</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=ad75d0641bf8a510eeeded74604bcb7f"/>
+</record_update>
