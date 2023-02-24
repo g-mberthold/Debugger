@@ -12,11 +12,21 @@
         <order/>
         <script><![CDATA[function onLoad() {
     //Type appropriate comment here, and begin script below
-
-    var number = g_form.getValue('number');
-//     alert('---> Incident Number: ' + number);
-    jslog('---> Incident Number: ' + number);
-
+    //     var a = g_user.firstName;
+    //     var a = g_user.getFullName();
+    //     var a = g_user.hasRole('itil');
+    //     var a = g_user.hasRoleFromList('problem_manager, knowledge');
+    //     alert("The firs name of user is " + a);
+    //     if (a == true) {
+    //         alert("The firs name of user is " + a);
+    //         jslog("The firs name of user is " + a);
+    //     }
+    //     g_form.addInfoMessage("LOG Message — This is first phase");
+    //     jslog('LOG MESSAGE For First Phase');
+    //     g_form.addErrorMessage("LOG Message — This is second phase");
+    //     jslog('LOG MESSAGE For Second Phase');
+    //     g_form.addInfoMessage("LOG Message — This is third phase");
+    //     jslog('LOG MESSAGE For Third Phase');
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -24,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ab8fcfc41b386510eeeded74604bcbe0</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Logging Scoped</sys_name>
         <sys_overrides/>
         <sys_package display_value="Debugging Logger" source="x_716145_debugging">de0ecf401b386510eeeded74604bcbad</sys_package>
@@ -32,7 +42,7 @@
         <sys_scope display_value="Debugging Logger">de0ecf401b386510eeeded74604bcbad</sys_scope>
         <sys_update_name>sys_script_client_ab8fcfc41b386510eeeded74604bcbe0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-02 08:54:27</sys_updated_on>
+        <sys_updated_on>2023-02-24 09:01:58</sys_updated_on>
         <table>incident</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
